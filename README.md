@@ -23,12 +23,6 @@ Dependencies for test environment:
 
 Installation:
 
-NOTE: If Permission is denied to execute files, run in the root folder : 
-
-```bash
-$ chmod +X *
-```
-
 ```bash
 $ cd chaincode; go mod vendor; cd ..
 $ cd rest-server; ./npmInstall.sh; cd ..
@@ -42,3 +36,9 @@ To apply chaincode changes, run `$ ./upgradeCC2.sh <version>` with a version hig
 To apply CC API changes, run `$ ./reloadCCAPI.sh`.
 
 To test transactions after starting all components, run `$ ./tryout.sh`.
+
+NOTE: If Permission is denied to execute files, run in the root folder : 
+
+```bash
+$ chmod +X *
+```
