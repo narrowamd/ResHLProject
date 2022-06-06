@@ -37,8 +37,12 @@ To apply CC API changes, run `$ ./reloadCCAPI.sh`.
 
 To test transactions after starting all components, run `$ ./tryout.sh`.
 
-NOTE: If Permission is denied to execute files, run in the root folder : 
+NOTES: 
+
+- If Permission is denied to execute files, run in the root folder : 
 
 ```bash
 $ chmod +X *
 ```
+- The chaincode interface can be accessed by browsing http://localhost:8080/
+- the API can be accessed by browsing http://localhost:880/api-docs/, http://localhost:980/api-docs/, or http://localhost:1080/api-docs/. The "880" represents the org.
