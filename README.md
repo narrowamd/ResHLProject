@@ -39,10 +39,10 @@ To test transactions after starting all components, run `$ ./tryout.sh`.
 
 ## NOTES
 
-- If Permission is denied to execute files, run in the root folder : 
+- If Permission is denied to execute files, run the following command after navigating to the root folder :
 
 ```bash
 $ chmod +X *
 ```
 - The chaincode interface can be accessed by browsing http://localhost:8080/
-- the API can be accessed by browsing http://localhost:880/api-docs/, http://localhost:980/api-docs/, or http://localhost:1080/api-docs/. The "880" represents the org.
+- the API can be accessed by browsing http://localhost:880/api-docs/, http://localhost:980/api-docs/, or http://localhost:1080/api-docs/. "880" represents org1.
