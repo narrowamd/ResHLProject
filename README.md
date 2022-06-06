@@ -6,6 +6,10 @@
 
 ## Development
 
+Install dependencies: 
+
+In the root folder run ./installPreReqUbuntu.sh
+
 Dependencies for chaincode:
 
 - Go 1.14 or higher
