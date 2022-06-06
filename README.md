@@ -23,7 +23,11 @@ Dependencies for test environment:
 
 Installation:
 
-NOTE: If Permission is denied to execute files, run : ```bash $ chmod +X *```; in the root folder.
+NOTE: If Permission is denied to execute files, run in the root folder : 
+
+```bash
+$ chmod +X *
+```
 
 ```bash
 $ cd chaincode; go mod vendor; cd ..
