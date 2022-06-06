@@ -37,7 +37,7 @@ To apply CC API changes, run `$ ./reloadCCAPI.sh`.
 
 To test transactions after starting all components, run `$ ./tryout.sh`.
 
-NOTES: 
+## NOTES
 
 - If Permission is denied to execute files, run in the root folder : 
 
