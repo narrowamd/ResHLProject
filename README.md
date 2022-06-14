@@ -6,10 +6,6 @@
 
 ## Development
 
-Install dependencies: 
-
-In the root folder run ./installPreReqUbuntu.sh
-
 Dependencies for chaincode:
 
 - Go 1.14 or higher
@@ -24,6 +20,7 @@ Dependencies for test environment:
 Installation:
 
 ```bash
+$ ./installPreReqUbuntu.sh
 $ cd chaincode; go mod vendor; cd ..
 $ cd rest-server; ./npmInstall.sh; cd ..
 ```
