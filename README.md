@@ -35,6 +35,14 @@ To apply CC API changes, run `$ ./reloadCCAPI.sh`.
 To test transactions after starting all components, run `$ ./tryout.sh`.
 
 ## NOTES
+- the Project can be run by running the following commands: 
+```bash
+./startdDev2.sh
+```
+
+```bash
+./run-cc-web.sh
+```
 
 - If Permission is denied to execute files, run the following command after navigating to the root folder :
 
