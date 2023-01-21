@@ -37,7 +37,7 @@ To test transactions after starting all components, run `$ ./tryout.sh`.
 ## NOTES
 - the Project can be run by running the following commands: 
 ```bash
-./startdDev2.sh
+./startDev2.sh
 ```
 
 ```bash
